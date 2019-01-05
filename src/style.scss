@@ -13,3 +13,12 @@ body {
     vertical-align: bottom;
   }
 }
+// Grid
+.post {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  // grid-column-gap: 40px;
+  column-gap: 40px;
+  padding: 0 30px;
+}
