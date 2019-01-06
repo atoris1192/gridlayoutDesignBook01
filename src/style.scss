@@ -179,3 +179,18 @@ body {
   height: 9.375em;
   opacity: 0.15;
 }
+
+// 横幅1000px over
+@media (min-width: 1000px) {
+  .post {
+    width: 1000px;
+    box-sizing: border-box; // 左右の30pxを含める(1000px)
+    margin: auto;
+    font-size: 20px;
+  }
+}
+@media (min-width: 769px) and (max-width: 999px) {
+  .post {
+    font-size: calc(16px + 4 * (100vw - 768px) / 232);
+  }
+}
