@@ -98,6 +98,23 @@ body {
   justify-self: center;
   align-self: center;
   margin-left: 30px;
+  text-align: center;
+
+  quotes: '“' '”';
+  display: grid;
+  grid-auto-flow: column;
+  grid-column-gap: 5px;
+  &::before {
+    content: open-quote;
+  }
+  &::after {
+    content: close-quote;
+  }
+  &::before, &::after {
+    color: #aaa;
+    font-size: 2em;
+    font-weight: 900;
+  }
 }
 
 // 文章02
