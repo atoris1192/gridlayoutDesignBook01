@@ -181,7 +181,7 @@ body {
 }
 
 // 横幅1000px over
-@media (min-width: 1000px) {
+@media (min-width: 1000px) { // 横幅固定で、中央寄せ
   .post {
     width: 1000px;
     box-sizing: border-box; // 左右の30pxを含める(1000px)
